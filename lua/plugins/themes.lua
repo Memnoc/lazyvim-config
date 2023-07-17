@@ -1,7 +1,8 @@
 return {
   -- add nord theme
   --{ "shaunsingh/nord.nvim" },
-  { "catppuccin/nvim" },
+  -- { "catppuccin/nvim" },
+  { "rose-pine/neovim" },
   -- { "navarasu/onedark.nvim" },
   --{"AlexvZyl/nordic.nvim"},
 
@@ -16,7 +17,7 @@ return {
   { -- Theme inspired by Atom
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "catppuccin-mocha",
+      colorscheme = "rose-pine-moon",
     },
   },
 }

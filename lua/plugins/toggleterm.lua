@@ -4,7 +4,7 @@ return {
     config = function()
       require("toggleterm").setup({
         direction = "vertical",
-        size = 80,
+        size = 60,
       })
     end,
     keys = {
