@@ -3,14 +3,15 @@ return {
     "akinsho/toggleterm.nvim",
     config = function()
       require("toggleterm").setup({
-        direction = "vertical",
-        size = 60,
+        direction = "horizontal",
+        size = 15,
+        persist_size = false,
       })
     end,
     keys = {
       {
         "<Leader>t",
-        desc = "Toggle terminal",
+        desc = "Toggle Terminal",
         function()
           require("toggleterm").toggle(vim.v.count1)
         end,
