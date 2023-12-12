@@ -1,23 +1,30 @@
 return {
   -- add nord theme
   --{ "shaunsingh/nord.nvim" },
-  -- { "catppuccin/nvim" },
-  { "rose-pine/neovim" },
-  -- { "navarasu/onedark.nvim" },
+  -- {"rmehri01/onenord.nvim"},
+  -- { "catppuccin/nvim", name = "catppuccin" },
+  -- { "rose-pine/neovim", name = "rose-pine" },
+  -- { "shaunsingh/nord.nvim", name = "nord" },
+  -- { "AlexvZyl/nordic.nvim", name = "nordic" },
+  { "gbprod/nord.nvim", name = "nord" },
+  -- { "folke/tokyonight.nvim", name = "tokyonight" },
   --{"AlexvZyl/nordic.nvim"},
 
-  -- Configure LazyVim to Catppuccin
-  -- {
-  -- 	"LazyVim/LazyVim",
-  -- 	opts = {
-  -- 		colorscheme = "catppuccin-mocha",
-  -- 	},
-  -- },
-
-  { -- Theme inspired by Atom
+  -- Configure LazyVim to load nord
+  {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "rose-pine-moon",
+      colorscheme = "nord",
     },
   },
 }
+
+-- return {
+--   { "rebelot/kanagawa.nvim", name = "wave" },
+--   {
+--     "LazyVim/LazyVim",
+--     opts = {
+--       colorscheme = "kanagawa",
+--     },
+--   },
+-- }
