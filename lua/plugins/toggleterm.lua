@@ -10,7 +10,7 @@ return {
     end,
     keys = {
       {
-        "<Leader>t",
+        "<Leader>9",
         desc = "Toggle Terminal",
         function()
           require("toggleterm").toggle(vim.v.count1)
